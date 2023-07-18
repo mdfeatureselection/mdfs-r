@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.vscode$
+^src/test$
+^\.env$
+^\.lintr$
+^LICENSE$
