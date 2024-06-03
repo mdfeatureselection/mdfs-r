@@ -83,7 +83,7 @@ MDFS <- function(
  fs <- ComputePValue(igs,
   dimensions = dimensions, divisions = divisions,
   contrast.mask = contrast.mask,
-  one.dim.mode = ifelse (discretizations==1, "raw", ifelse(divisions*discretizations<12, "lin", "exp")))
+  discretizations = discretizations)
 
  statistic <- MIG.Result$IG
  p.value <- fs$p.value[seq_len(ncol(data))]
