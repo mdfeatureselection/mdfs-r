@@ -1,3 +1,7 @@
+// to make CRAN happy as it will be the default in R 4.5.0
+#ifndef R_NO_REMAP
+# define R_NO_REMAP
+#endif
 #include <Rinternals.h>
 
 extern "C"
