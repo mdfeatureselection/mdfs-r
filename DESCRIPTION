@@ -3,7 +3,7 @@ Title: MultiDimensional Feature Selection
 Version: 1.5.3.12345
 Date: 2023-05-09
 Authors@R: c(
-    person("Radosław", "Piliszek", email = "r.piliszek@uwb.edu.pl", role = c("aut", "cre")),
+    person("Radosław", "Piliszek", email = "radek@piliszek.it", role = c("aut", "cre")),
     person("Krzysztof", "Mnich", email = "k.mnich@uwb.edu.pl", role = "aut"),
     person("Paweł", "Tabaszewski", email = "tabaszewski.pawel@gmail.com", role = "aut"),
     person("Szymon", "Migacz", email = "szmigacz@gmail.com", role = "aut"),
