@@ -4,8 +4,6 @@
 #include "r_interface.h"
 
 #ifdef WITH_CUDA
-// <R.h> required to report errors - currently only CUDA reports any errors
-#include <R.h>
 #include "gpu/cucubes.h"
 #endif
 
