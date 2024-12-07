@@ -1,6 +1,6 @@
 Package: MDFS
 Title: MultiDimensional Feature Selection
-Version: 1.5.3
+Version: 1.5.3.12345
 Date: 2023-05-09
 Authors@R: c(
     person("Radosław", "Piliszek", email = "r.piliszek@uwb.edu.pl", role = c("aut", "cre")),
