@@ -334,6 +334,7 @@ RelevantVariables.MDFS <- function(fs, level=0.05, p.adjust.method="holm", ...) 
 #' @param x an MDFS object
 #' @param plots plots to plot (ig for max IG, c for chi-squared p-values, p for p-values)
 #' @param ... passed on to \code{\link[graphics]{plot}}
+#' @return No return value, called for side effects.
 #' @importFrom graphics plot
 #' @export
 plot.MDFS <- function(x, plots=c('ig', 'c', 'p'), ...) {

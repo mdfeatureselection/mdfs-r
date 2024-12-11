@@ -9,6 +9,9 @@ mdfs_omp_set_num_threads(num_threads)
 \arguments{
 \item{num_threads}{input data where columns are variables and rows are observations (all numeric)}
 }
+\value{
+No return value, called for side effects.
+}
 \description{
 Call omp_set_num_threads
 }

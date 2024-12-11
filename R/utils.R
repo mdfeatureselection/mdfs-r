@@ -145,6 +145,7 @@ Discretize <- function(
 #' Call omp_set_num_threads
 #'
 #' @param num_threads input data where columns are variables and rows are observations (all numeric)
+#' @return No return value, called for side effects.
 #' @export
 #' @useDynLib MDFS r_omp_set_num_threads
 mdfs_omp_set_num_threads <- function(

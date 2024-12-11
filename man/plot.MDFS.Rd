@@ -13,6 +13,9 @@
 
 \item{...}{passed on to \code{\link[graphics]{plot}}}
 }
+\value{
+No return value, called for side effects.
+}
 \description{
 Plot MDFS details
 }
